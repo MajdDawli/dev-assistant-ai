@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+
+# Environment variables
+.env
+**/.env
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker
+**/Dockerfile
+docker-compose.override.yml
+
+# Vite build cache
+.vite/
