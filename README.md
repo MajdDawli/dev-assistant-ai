@@ -100,14 +100,14 @@ docker-compose down
 ## Potential Improvements
 
 - Add database (PostgreSQL or SQLite) to persist queries and responses.
-- Implement environment-based configuration (for different backend URLs in dev/prod).
 - Enhance frontend UX with animations and a chat-like history view.
 - Add unit and integration tests for backend API and frontend components.
 - Implement LangSmith or Langfuse to monitor LLM calls.
+- Include better error handling and sanitize user input.
 
 
 ---
 
-# inal Note
+# Final Note
 
 This project was designed and built with production-readiness, modularity, and real-world deployment practices in mind, aiming to simulate how a real-world LLM-powered developer tool would be architected.

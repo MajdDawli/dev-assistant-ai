@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div style={{ padding: '2rem' }}>
+    <div style={{ padding: '1rem' }}>
       <h1>AI Developer Assistant</h1>
 
       <form onSubmit={handleSubmit}>
@@ -32,7 +32,7 @@ function App() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Ask a dev question..."
-          style={{ width: '300px', padding: '0.5rem' }}
+          style={{ width: '300px', padding: '0.3rem' }}
         />
         <button type="submit" style={{ marginLeft: '1rem', padding: '0.5rem 1rem' }}>
           Ask
